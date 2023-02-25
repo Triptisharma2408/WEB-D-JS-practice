@@ -5,7 +5,7 @@ let p = new Promise((resolve,reject)=>{
         resolve("badiya hai");
     }
     else{
-        reject("Ok! Bye!");
+        reject("Bye!");
     }
 })
 
