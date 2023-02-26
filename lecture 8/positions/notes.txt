@@ -1,0 +1,4 @@
+position
+ -> relative: apni current position 
+ -> absolute
+ -> fixed

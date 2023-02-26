@@ -1,0 +1,11 @@
+/* Make the container as grid display to use the properties of grid layer */
+.container{
+    display: grid;
+}
+.item{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    color: aquamarine;
+    font-size: 35px;
+}

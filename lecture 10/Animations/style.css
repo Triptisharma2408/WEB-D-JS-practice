@@ -1,0 +1,53 @@
+.game{
+    height: 500px;
+    width: 1100px;
+    border: 5px solid black;
+    background-color: rosybrown;
+    margin: auto;
+}
+
+.bird{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSxFohva5_5GaiwE3_telVFmAKqFhtY59HCQ&usqp=CAU");
+    height: 80px;
+    width: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    animation-name: birdmovement;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes birdmovement {
+    /* o seconds */
+    0%{
+        left: 0;
+        top: 0;
+    }
+    /* 1.5 seconds */
+    50%{
+        left: 50%;
+        top: 93%;
+    }
+    /* 3 seconds */
+    100%{
+        left: 1050px;
+        top: 0;
+    }
+}
+
+/* @keyframes birdmovement {
+    from{
+        left: 0;
+    }
+    to{
+        left: 1050px;
+    }
+} */
+
+/* .bird:hover{
+    position: relative;
+    left: 1000px;
+} */

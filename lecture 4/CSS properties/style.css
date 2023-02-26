@@ -1,0 +1,42 @@
+h2{
+    font-size: 50px;
+}
+p{
+    color: blueviolet;
+    font-size: 25px;
+    line-height: 50px;
+}
+ul{
+    font-size: 30px;
+    color: rgb(255, 47, 47);
+}
+
+p{
+    /*margin: 50px;*/
+    /*margin-top: 50;
+    margin-bottom:50 ;
+    margin-left: 500;
+    margin-right: 500;*/
+    margin: 50px 100px;
+    /*margin:top/bottom left/right*/
+    margin: 60px 100px 140px 170px; 
+    padding: 15px;
+    /*font-family: sans-serif;*/
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    border: 5px dashed black;
+}
+
+em{
+    color: chartreuse;
+}
+p span{
+    background-color: coral;
+    color: cyan;
+}
+p span em{
+    color: rgb(64, 255, 0);
+}
+p span{
+    color: white;
+}

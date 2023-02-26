@@ -1,0 +1,44 @@
+body{
+    perspective: 800px;
+ }
+ 
+ .side-a,
+ .side-b{
+     height: 400px;
+     width: 250px;
+     /* border: 1px solid black; */
+     /* margin: auto; */
+     backface-visibility: hidden;
+ }
+ 
+ .card{
+     height: 400px;
+     width: 250px;
+     border: 5px solid black;
+     margin: 50px auto;
+     transition-duration: 3s;
+     transform-style: preserve-3d;
+ }
+ 
+ .side-a{
+     background-color: olive;
+     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7vomJj1UoJ7KHZvjUeU3A_F-7EYr4nxSqQQ&usqp=CAU");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position-x: center;
+     position: absolute;
+     z-index: 1;
+    }
+
+    .side-b{
+        background-color: green;
+        position: absolute;
+        text-align: center;
+        transform: rotateY(180deg);
+        transition-duration: 2s;
+    }
+    
+    .card:hover{
+        transform: rotateY(180deg);
+        /* backface-visibility: hidden; */
+    } 

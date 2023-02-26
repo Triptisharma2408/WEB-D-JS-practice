@@ -1,0 +1,55 @@
+.navbar{
+    height: 20px;
+    padding: 10px;
+    background-color: rgb(6, 141, 96);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 2;
+}
+ .navElement{
+    margin-right: 15px;
+ }
+ 
+ .navElement:link{
+    text-decoration: none;
+    color: white;
+ }
+ .navElement:visited{
+    color: white;
+ }
+ .navElement:hover{
+    text-decoration: underline;
+    color: white;
+ }
+
+/*PHONEBOOK KI STYLING*/
+.phonebook{
+    width: 700px;
+    margin: auto;
+}
+.alphabet,
+.names{
+    border: 1px solid black;
+}
+.alphabet{
+    margin: 20px 0;
+    text-align: center;
+    background-color: greenyellow;
+    color: green;
+    position: sticky;
+    top: 0px;
+}
+
+.container{
+    width: 900px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.phonebook{
+    border: 2px solid yellowgreen;
+    height: 300px;
+    overflow: auto;
+}

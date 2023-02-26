@@ -1,0 +1,16 @@
+.div{
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(7, 151, 151);
+    margin: 150px auto;
+}
+
+
+.div:hover{
+    background-color: rgb(71, 71, 234);
+    /*transform: rotateZ(180deg);*/
+    transform: rotateZ(45deg) scale2;
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+}
